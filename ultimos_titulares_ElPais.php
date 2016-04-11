@@ -4,6 +4,7 @@
  * User: dromeo
  * Date: 11/04/2016
  * Time: 16:12
+ * "Muestra los primeros 10 titulares con links a las noticias"
  */
 $xml = simplexml_load_file("http://ep00.epimg.net/rss/elpais/portada.xml");
 for ($i = 0; $i <= 10; $i++){
